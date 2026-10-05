@@ -10,9 +10,9 @@ printf("Enter three numbers\n");
 
 scanf("%d%d%d",&a,&b,&c);
 
-result=(a+b)*c;
+result=a+b*c;
 
-printf("Expression: (a+b)*c");
+printf("Expression: a+b*c");
     
 printf("Result=%d\n", result);
 
